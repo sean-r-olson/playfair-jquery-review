@@ -37,5 +37,8 @@ header {
     list-style-type: none;
 }
 
+.important {
+    background-color: goldenrod;
+}
 
 
