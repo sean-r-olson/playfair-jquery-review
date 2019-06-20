@@ -30,12 +30,18 @@ function onReady () {
 // This function will be called when we click on a student 
 // It will show an alert saying the student is awesome 
 
+
 function showAwesomeAlert (event) {
     console.log('Event', event);
     // In the event handler (**EVENT HANDLERS ARE ALWAYS FUNCTIONS**)
     // 'this' is what generated the event 
     // -- 'this' is always contextually 
-    console.log(this);
+    // console.log(this);
+    // declare new variable studentName, set value to: 
+    // -- select 'this' which will target what has generated 
+    //      the event, and display the contents of the text on DOM 
+    let studentName = $(this).text();
+    alert(`${studentName} is awesome!!`)
     alert('Check the console!');
 }
 

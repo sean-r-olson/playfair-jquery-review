@@ -1,0 +1,41 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    background-color: wheat;
+    margin: 0px;
+}
+
+section {
+    background-color: grey;
+    color: black;
+    padding: 10px;
+    margin: 2rem;
+}
+   
+
+header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+}
+
+#about {
+    background-color: darkolivegreen;
+
+}
+
+.info {
+    
+
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+
+
